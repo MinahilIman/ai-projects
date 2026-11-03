@@ -1,0 +1,101 @@
+id,prompt,subject,label
+1,Solve 3x + 7 = 22 and tell me the final answer,Math,Answer-seeking
+2,What is the derivative of x^3 * sin(x)? Just give me the result,Math,Answer-seeking
+3,Why does the derivative of a constant equal zero?,Math,Explanation-seeking
+4,I solved 2x + 5 = 11 and got x = 3. Is my working correct?,Math,Feedback
+5,Can you help me understand what a matrix determinant actually represents?,Math,Explanation-seeking
+6,"Do my homework: find the area of a circle with radius 7, the perimeter of a square with side 5, and the volume of a cube with side 3",Math,Answer-seeking
+7,How should I split my time between calculus and physics before exams next week?,Math,Other
+8,What is the difference between a permutation and a combination? Please give a simple example,Math,Explanation-seeking
+9,"My Python loop throws IndexError: list index out of range, how do I fix it?",Programming,Debugging
+10,Write a Python function that checks if a string is a palindrome,Programming,Answer-seeking
+11,Explain how recursion works like I am a beginner,Programming,Explanation-seeking
+12,Here is my bubble sort code. Is it efficient or can I improve it?,Programming,Feedback
+13,Why am I getting NameError: name x is not defined in my code?,Programming,Debugging
+14,What is the difference between a list and a tuple in Python?,Programming,Explanation-seeking
+15,My C++ program compiles but crashes with a segmentation fault. What could be the reason?,Programming,Debugging
+16,Write the complete code for a student management system in Java for my assignment,Programming,Answer-seeking
+17,I wrote this SQL query to find the top 5 customers by sales. Can you check if it is correct?,Programming,Feedback
+18,My HTML button does nothing when I click it. What is wrong?,Programming,Debugging
+19,How do I explain Big O notation in my own words for a presentation?,Programming,Explanation-seeking
+20,Suggest a good project idea for my data structures course,Programming,Other
+21,Explain the difference between mitosis and meiosis,Biology,Explanation-seeking
+22,"Just tell me the answers: which organelle makes ATP, and what is the full name of DNA?",Biology,Answer-seeking
+23,I wrote a summary of photosynthesis in 5 sentences. Can you tell me if I missed anything important?,Biology,Feedback
+24,How does natural selection lead to new species?,Biology,Explanation-seeking
+25,Write a 300-word essay on the importance of biodiversity for my class,Biology,Answer-seeking
+26,Can you proofread this paragraph from my essay and tell me what is weak?,English,Feedback
+27,Write a poem about autumn for my assignment,English,Answer-seeking
+28,Explain what a metaphor is and how it is different from a simile,English,Explanation-seeking
+29,Does my thesis statement clearly state my argument? Social media is harmful to teenagers because it affects their sleep and focus,English,Feedback
+30,What is the theme of Romeo and Juliet? Give me the answer in one line,English,Answer-seeking
+31,How can I make my writing sound more formal?,English,Other
+32,Calculate the force on a 5 kg object accelerating at 3 m/s^2,Physics,Answer-seeking
+33,Why does a heavier object not fall faster than a lighter one in a vacuum?,Physics,Explanation-seeking
+34,I calculated the speed as 20 m/s using v = d/t with d = 100 m and t = 5 s. Is that right?,Physics,Feedback
+35,Explain Ohm's law and where it stops working,Physics,Explanation-seeking
+36,Give me a trick to memorize all the kinematic equations,Physics,Other
+37,Explain the main causes of World War I,History,Explanation-seeking
+38,Write the three main causes of the French Revolution in bullet points for my homework,History,Answer-seeking
+39,Here is my paragraph on the Industrial Revolution. Is my argument convincing?,History,Feedback
+40,What is supply and demand and why do prices change?,Economics,Explanation-seeking
+41,Tell me the answer: what is GDP and what is its formula?,Economics,Answer-seeking
+42,Balance this equation for me: H2 + O2 -> H2O,Chemistry,Answer-seeking
+43,Why do acids and bases neutralize each other?,Chemistry,Explanation-seeking
+44,Here is my lab report conclusion. Does it include everything a good conclusion should have?,Chemistry,Feedback
+45,Make me a weekly study timetable for 5 subjects,General,Other
+46,How can I stop procrastinating while studying?,General,Other
+47,Summarize chapter 3 of my textbook so I do not have to read it,General,Answer-seeking
+48,Can you recommend some free websites to learn machine learning?,General,Other
+49,I am nervous about my presentation tomorrow. How do I prepare?,General,Other
+50,Translate this sentence into Urdu for my assignment: Education is the key to success,General,Answer-seeking
+51,What is the quadratic formula and how do I know when to use it?,Math,Explanation-seeking
+52,"Give me the answers to questions 1 to 5 on my algebra worksheet: 2x=10, x+9=15, 4x-3=9, x/2=7, 5x+1=26",Math,Answer-seeking
+53,I used the quadratic formula on x^2 - 5x + 6 = 0 and got x = 2 and x = 3. Did I do it right?,Math,Feedback
+54,Why is dividing by zero undefined?,Math,Explanation-seeking
+55,Find the integral of 2x * e^(x^2) and write only the final answer,Math,Answer-seeking
+56,Can you explain what standard deviation tells us about data?,Math,Explanation-seeking
+57,Write a Python program to sort a list of numbers using merge sort,Programming,Answer-seeking
+58,My for loop prints the same value every time. What is the bug? for i in range(5): print(x),Programming,Debugging
+59,What does the static keyword mean in Java?,Programming,Explanation-seeking
+60,Here is my function to find the maximum in a list. Is there a cleaner way to write it?,Programming,Feedback
+61,"Complete my assignment: build a to-do list app in React with add, delete and edit features",Programming,Answer-seeking
+62,I keep getting a TypeError when I add a number to a string in Python. Why?,Programming,Debugging
+63,How does a hash table store and find data so quickly?,Programming,Explanation-seeking
+64,What is the difference between a stack and a queue? Please use a real life example,Programming,Explanation-seeking
+65,Can you review my GitHub README and tell me what is missing?,Programming,Feedback
+66,What should I learn first: Python or JavaScript?,Programming,Other
+67,Why does my Git push get rejected with a non-fast-forward error?,Programming,Debugging
+68,Write SQL to list all students with marks above 80 from the results table,Programming,Answer-seeking
+69,Explain how the human heart pumps blood through the body,Biology,Explanation-seeking
+70,"List the stages of the cell cycle for my quiz tomorrow, answers only",Biology,Answer-seeking
+71,I drew a diagram of the nitrogen cycle and described it in a paragraph. Can you tell me if it is accurate?,Biology,Feedback
+72,Why do some people have blood type O and others AB?,Biology,Explanation-seeking
+73,Write a lab report introduction about osmosis in potato cells,Biology,Answer-seeking
+74,What is the role of enzymes and why does temperature affect them?,Biology,Explanation-seeking
+75,Here is the first paragraph of my essay on climate change. How can I improve it?,English,Feedback
+76,Write a 200-word essay on the benefits of reading books,English,Answer-seeking
+77,What is the difference between affect and effect?,English,Explanation-seeking
+78,Give me the summary and main characters of Animal Farm in a few lines,English,Answer-seeking
+79,Is my grammar correct in this sentence: Me and my friend goes to the library every day?,English,Feedback
+80,Why do authors use foreshadowing in stories?,English,Explanation-seeking
+81,Why do we feel weightless in a falling elevator?,Physics,Explanation-seeking
+82,Find the final velocity of a car that starts at rest and accelerates at 4 m/s^2 for 6 seconds,Physics,Answer-seeking
+83,I got 12 joules for the work done pushing a box with 4 N over 3 m. Is this correct?,Physics,Feedback
+84,How does a transformer change voltage?,Physics,Explanation-seeking
+85,Explain the difference between speed and velocity,Physics,Explanation-seeking
+86,Why did the Roman Empire fall? Explain the main reasons,History,Explanation-seeking
+87,Write a short essay on the causes of the partition of India for my history class,History,Answer-seeking
+88,Can you check my timeline of the Cold War and tell me if I missed any big events?,History,Feedback
+89,What is inflation and how does it affect ordinary people?,Economics,Explanation-seeking
+90,Tell me the answer: what is opportunity cost? Give me a one-line definition for my exam,Economics,Answer-seeking
+91,How do I know if my graph of supply and demand is drawn correctly? Here is my description of it,Economics,Feedback
+92,Explain how covalent bonds are different from ionic bonds,Chemistry,Explanation-seeking
+93,What is the pH of a 0.01 M HCl solution? Give me the number,Chemistry,Answer-seeking
+94,Help me understand why the periodic table is arranged the way it is,Chemistry,Explanation-seeking
+95,How do I write a good email to my professor asking for an extension?,General,Other
+96,Can you explain the Pomodoro technique and tell me if it would work for me?,General,Other
+97,I do not understand anything in my machine learning class. Where should I start?,General,Other
+98,Do my reading response on the article I uploaded and make it sound like me,General,Answer-seeking
+99,What is a good way to remember formulas before an exam?,General,Other
+100,Check my presentation outline for my final year project and tell me if the order makes sense,General,Feedback
