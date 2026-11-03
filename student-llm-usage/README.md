@@ -40,13 +40,14 @@ Patterns in this sample: all Debugging prompts fall under Programming, and the G
 
 ## Labeler agreement
 
-A second person independently labeled the first 30 prompts. Agreement: AGREEMENT_PLACEHOLDER
+A friend (not a researcher) independently labeled the first 30 prompts using the same rules. We agreed on 26 of 30 (86.7%), Cohen's kappa = 0.83. All 4 disagreements were "Write ..." requests (a Python function, a full program, an essay and a poem): I labeled them Answer-seeking and she labeled them Other. This suggests the scheme needs a clearer rule for creative or open-ended writing requests.
 
 ## Limitations
 
 - Prompts are hand-written, not collected from real students.
 - Only 100 prompts and one main labeler.
 - Some prompts are borderline between two categories (for example, a general "how do I explain X" question), so labels involve judgment.
+- Agreement was measured on only 30 prompts with a single second labeler, so the kappa value is a rough estimate.
 
 ## Future work
 
