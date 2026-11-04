@@ -1,0 +1,11 @@
+id,chart_type,request
+1,Bar,"Write Python matplotlib code to make a bar chart of the number of students in each department: CS 120, Math 80, Physics 60, Biology 90."
+2,Line,"Write Python matplotlib code to plot monthly sales for 2025: Jan 10, Feb 14, Mar 18, Apr 17, May 22, Jun 25."
+3,Pie,"Write Python matplotlib code to make a pie chart of my monthly budget: Rent 40%, Food 25%, Transport 10%, Savings 15%, Other 10%."
+4,Two-line,"Write Python matplotlib code to compare pass and fail rates over 5 years (2021 to 2025). Pass: 70, 72, 75, 78, 80. Fail: 30, 28, 25, 22, 20. Use green for pass and red for fail."
+5,Grouped bar,"Write Python matplotlib code to compare exam scores of Class A and Class B in Math, Science and English. Class A: 75, 82, 68. Class B: 80, 70, 74."
+6,Scatter,"Write Python matplotlib code to make a scatter plot of study hours vs exam score: (1,50), (2,55), (3,65), (4,70), (5,78), (6,85)."
+7,Stacked bar,"Write Python matplotlib code to show how a store's sales split between online and in-store in Q1 to Q4. Online: 20, 25, 30, 40. In-store: 50, 45, 40, 35."
+8,Histogram,"Write Python matplotlib code to make a histogram of these student ages: 18, 19, 19, 20, 20, 20, 21, 21, 22, 22, 23, 24, 25, 27, 30, 35."
+9,Multi-line,"Write Python matplotlib code to plot the daily temperature from Monday to Sunday for four cities. Lahore: 30, 31, 33, 32, 34, 35, 33. Islamabad: 26, 27, 28, 27, 29, 30, 28. Karachi: 32, 32, 33, 33, 34, 34, 33. Murree: 18, 19, 20, 18, 21, 22, 20."
+10,Heatmap,"Write Python matplotlib code to make a heatmap of study hours per day (Mon to Fri) over 3 weeks. Week 1: 2, 3, 2, 4, 1. Week 2: 3, 3, 4, 2, 2. Week 3: 1, 2, 3, 3, 4."

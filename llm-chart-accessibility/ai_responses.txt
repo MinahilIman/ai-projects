@@ -1,0 +1,371 @@
+Assistant: Gemini (Flash 3.6)
+Date: 04-Nov-26
+
+=== CHART 1 ===
+Here is the Python code using Matplotlib to create the bar chart:
+
+```python
+import matplotlib.pyplot as plt
+
+# Data
+departments = ['CS', 'Biology', 'Math', 'Physics']
+students = [120, 90, 80, 60]
+
+# Create figure and axis
+fig, ax = plt.subplots(figsize=(8, 5))
+
+# Plot bar chart
+bars = ax.bar(departments, students, color='#3b82f6', edgecolor='#1d4ed8', width=0.55)
+
+# Add data labels on top of each bar
+ax.bar_label(bars, padding=3, fontsize=10, fontweight='bold')
+
+# Styling
+ax.set_title('Number of Students by Department', fontsize=14, fontweight='bold', pad=15)
+ax.set_xlabel('Department', fontsize=11, labelpad=10)
+ax.set_ylabel('Number of Students', fontsize=11, labelpad=10)
+ax.set_ylim(0, 140)
+
+# Clean grid and spines
+ax.set_axisbelow(True)
+ax.yaxis.grid(True, linestyle='--', alpha=0.5)
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+
+plt.tight_layout()
+plt.show()
+
+```
+
+=== CHART 2 ===
+Here is the Python code using `matplotlib` to plot the monthly sales for 2025:
+
+```python
+import matplotlib.pyplot as plt
+
+# Data
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+sales = [10, 14, 18, 17, 22, 25]
+
+# Create plot
+plt.figure(figsize=(8, 5))
+plt.plot(months, sales, marker='o', color='b', linewidth=2, label='Sales')
+
+# Formatting
+plt.title('Monthly Sales (2025)', fontsize=14, fontweight='bold')
+plt.xlabel('Month', fontsize=12)
+plt.ylabel('Sales (Units)', fontsize=12)
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.legend()
+
+# Display data values on points
+for i, value in enumerate(sales):
+    plt.text(i, value + 0.5, str(value), ha='center', fontsize=10)
+
+# Adjust layout and show
+plt.tight_layout()
+plt.show()
+
+```
+Would you like to customize this plot (e.g., change to a bar chart or adjust colors)?
+
+=== CHART 3 ===
+```python
+import matplotlib.pyplot as plt
+
+# Data
+categories = ['Rent', 'Food', 'Savings', 'Transport', 'Other']
+percentages = [40, 25, 15, 10, 10]
+colors = ['#2b5c8f', '#d95f02', '#2ca02c', '#7570b3', '#e7298a']
+explode = (0.05, 0, 0, 0, 0)  # Slightly offset the largest slice (Rent)
+
+# Figure setup
+plt.figure(figsize=(8, 6))
+
+# Plot pie chart
+plt.pie(
+    percentages, 
+    labels=categories, 
+    autopct='%1.0f%%', 
+    startangle=140, 
+    colors=colors, 
+    explode=explode, 
+    shadow=True, 
+    textprops={'fontsize': 11}
+)
+
+plt.title('Monthly Budget Breakdown', fontsize=14, fontweight='bold', pad=20)
+plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+# Render chart
+plt.tight_layout()
+plt.show()
+
+```
+=== CHART 4 ===
+```python
+import matplotlib.pyplot as plt
+
+# Data
+years = [2021, 2022, 2023, 2024, 2025]
+pass_rates = [70, 72, 75, 78, 80]
+fail_rates = [30, 28, 25, 22, 20]
+
+plt.figure(figsize=(9, 5))
+
+# Plot lines
+plt.plot(
+    years,
+    pass_rates,
+    marker="o",
+    linewidth=2.5,
+    color="#2ca02c",
+    label="Pass Rate (%)",
+)
+plt.plot(
+    years,
+    fail_rates,
+    marker="o",
+    linewidth=2.5,
+    color="#d62728",
+    label="Fail Rate (%)",
+)
+
+# Styling and Labels
+plt.title("Pass vs. Fail Rates (2021–2025)", fontsize=14, fontweight="bold")
+plt.xlabel("Year", fontsize=12)
+plt.ylabel("Percentage (%)", fontsize=12)
+plt.xticks(years)
+plt.ylim(0, 100)
+plt.grid(axis="y", linestyle="--", alpha=0.7)
+plt.legend(frameon=True, facecolor="white", edgecolor="none")
+
+# Data value labels
+for y, p, f in zip(years, pass_rates, fail_rates):
+    plt.text(y, p + 2, f"{p}%", ha="center", fontweight="bold", color="#2ca02c")
+    plt.text(y, f + 2, f"{f}%", ha="center", fontweight="bold", color="#d62728")
+
+plt.tight_layout()
+plt.show()
+
+```
+=== CHART 5 ===
+Here is the Python code using `matplotlib` to create a grouped bar chart comparing the exam scores of Class A and Class B:
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Data
+subjects = ["Math", "Science", "English"]
+class_a = [75, 82, 68]
+class_b = [80, 70, 74]
+
+# Set bar positions and width
+x = np.arange(len(subjects))
+width = 0.35
+
+# Create plot
+fig, ax = plt.subplots(figsize=(8, 5))
+rects1 = ax.bar(x - width / 2, class_a, width, label="Class A", color="#2b5c8f")
+rects2 = ax.bar(x + width / 2, class_b, width, label="Class B", color="#d95f02")
+
+# Labels, title, and customization
+ax.set_ylabel("Exam Scores")
+ax.set_title("Exam Scores Comparison: Class A vs Class B")
+ax.set_xticks(x)
+ax.set_xticklabels(subjects)
+ax.set_ylim(0, 100)
+ax.legend()
+
+
+# Add value labels on top of bars
+def add_labels(rects):
+    for rect in rects:
+        height = rect.get_height()
+        ax.annotate(
+            f"{height}",
+            xy=(rect.get_x() + rect.get_width() / 2, height),
+            xytext=(0, 3),  # 3 points vertical offset
+            textcoords="offset points",
+            ha="center",
+            va="bottom",
+        )
+
+
+add_labels(rects1)
+add_labels(rects2)
+
+plt.tight_layout()
+plt.show()
+
+```
+Want to convert this heatmap into an interactive Plotly visualization?
+
+=== CHART 6 ===
+```python
+import matplotlib.pyplot as plt
+
+# Data points
+study_hours = [1, 2, 3, 4, 5, 6]
+exam_scores = [50, 55, 65, 70, 78, 85]
+
+# Create scatter plot
+plt.figure(figsize=(8, 5))
+plt.scatter(study_hours, exam_scores, color="blue", marker="o", s=50)
+
+# Add title and labels
+plt.title("Study Hours vs. Exam Score", fontsize=14, fontweight="bold")
+plt.xlabel("Study Hours", fontsize=12)
+plt.ylabel("Exam Score", fontsize=12)
+
+# Set grid and axis limits
+plt.grid(True, linestyle="--", alpha=0.6)
+plt.xlim(0, 7)
+plt.ylim(40, 95)
+
+# Display plot
+plt.show()
+
+```
+=== CHART 7 ===
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Data
+quarters = ['Q1', 'Q2', 'Q3', 'Q4']
+online_sales = [20, 25, 30, 40]
+instore_sales = [50, 45, 40, 35]
+
+x = np.arange(len(quarters))
+width = 0.35
+
+# Plotting stacked bar chart
+fig, ax = plt.subplots(figsize=(8, 5))
+
+bars1 = ax.bar(x, in_store_sales, width, label='In-store', color='#2b5c8f')
+bars2 = ax.bar(x, online_sales, width, bottom=in_store_sales, label='Online', color='#e76f51')
+
+# Formatting chart
+ax.set_ylabel('Sales (Units / $K)')
+ax.set_title('Sales Split by Channel (Q1 - Q4)')
+ax.set_xticks(x)
+ax.set_xticklabels(quarters)
+ax.legend()
+ax.grid(axis='y', linestyle='--', alpha=0.5)
+
+# Adding value labels inside bars
+for b1, b2 in zip(bars1, bars2):
+    h1 = b1.get_height()
+    h2 = b2.get_height()
+    ax.annotate(f'{h1}', (b1.get_x() + b1.get_width() / 2, h1 / 2),
+                ha='center', va='center', color='white', fontweight='bold')
+    ax.annotate(f'{h2}', (b2.get_x() + b2.get_width() / 2, h1 + h2 / 2),
+                ha='center', va='center', color='white', fontweight='bold')
+
+plt.tight_layout()
+plt.show()
+
+```
+Want me to convert this into a 100% stacked percentage bar chart or grouped side-by-side bars?
+
+RESULT: code did not run. NameError: name 'in_store_sales' is not defined (the data is defined as instore_sales, but the plotting code uses in_store_sales)
+
+=== CHART 8 ===
+```python
+import matplotlib.pyplot as plt
+
+# Student age data
+ages = [18, 19, 19, 20, 20, 20, 21, 21, 22, 22, 23, 24, 25, 27, 30, 35]
+
+# Define bin boundaries so each integer age has its own centered bin
+bins = range(min(ages), max(ages) + 2)
+
+plt.figure(figsize=(8, 5))
+plt.hist(ages, bins=bins, align="left", edgecolor="black", color="skyblue")
+
+plt.title("Distribution of Student Ages")
+plt.xlabel("Age")
+plt.ylabel("Number of Students")
+plt.xticks(range(min(ages), max(ages) + 1))
+plt.grid(axis="y", linestyle="--", alpha=0.7)
+
+plt.show()
+
+```
+=== CHART 9 ===
+```python
+import matplotlib.pyplot as plt
+
+# Data
+days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+temp_lahore = [30, 31, 33, 32, 34, 35, 33]
+temp_islamabad = [26, 27, 28, 27, 29, 30, 28]
+temp_karachi = [32, 32, 33, 33, 34, 34, 33]
+temp_murree = [18, 19, 20, 18, 21, 22, 20]
+
+# Create plot
+plt.figure(figsize=(10, 6))
+
+plt.plot(days, temp_lahore, marker='o', linewidth=2, label='Lahore')
+plt.plot(days, temp_islamabad, marker='s', linewidth=2, label='Islamabad')
+plt.plot(days, temp_karachi, marker='^', linewidth=2, label='Karachi')
+plt.plot(days, temp_murree, marker='d', linewidth=2, label='Murree')
+
+# Customize appearance
+plt.title('Daily Temperature Trends Across Cities (°C)', fontsize=14, fontweight='bold', pad=15)
+plt.xlabel('Days of the Week', fontsize=12)
+plt.ylabel('Temperature (°C)', fontsize=12)
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.legend(title='Cities', loc='upper left')
+
+# Display plot
+plt.tight_layout()
+plt.show()
+
+```
+=== CHART 10 ===
+Here is the Python code using Matplotlib and Seaborn to build the study hours heatmap:
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Define the data
+data = [
+    [2, 3, 2, 4, 1],  # Week 1
+    [3, 3, 4, 2, 2],  # Week 2
+    [1, 2, 3, 3, 4],  # Week 3
+]
+
+days = ["Mon", "Tue", "Wed", "Thu", "Fri"]
+weeks = ["Week 1", "Week 2", "Week 3"]
+
+# Set up the figure
+plt.figure(figsize=(8, 4))
+
+# Create heatmap
+ax = sns.heatmap(
+    data,
+    annot=True,  # Display data values inside cells
+    fmt="d",  # Format values as integers
+    cmap="YlGnBu",  # Color map (Yellow-Green-Blue)
+    xticklabels=days,
+    yticklabels=weeks,
+    cbar_kws={"label": "Hours Studied"},
+    linewidths=1,
+    linecolor="white",
+)
+
+# Customization
+plt.title("Study Hours Per Day Across 3 Weeks", fontsize=14, pad=12)
+plt.xlabel("Day of the Week", fontsize=11)
+plt.ylabel("Week", fontsize=11)
+
+plt.tight_layout()
+plt.show()
+
+```
+Want to convert this heatmap into an interactive Plotly visualization?

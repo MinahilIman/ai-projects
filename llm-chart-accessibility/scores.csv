@@ -1,0 +1,11 @@
+chart,type,title,axis_labels,legend,readable_text,colorblind_safe,alt_text,score,notes
+1,Bar,1,1,1,1,1,0,5,
+2,Line,1,1,1,1,1,0,5,
+3,Pie,1,1,1,1,1,0,5,no axes (counted as pass)
+4,Two-line,1,1,1,1,0,0,4,green vs red only with same markers
+5,Grouped bar,1,0,1,1,1,0,4,no x-axis label
+6,Scatter,1,1,1,1,1,0,5,
+7,Stacked bar,,,,,,,,code failed: NameError (instore_sales vs in_store_sales)
+8,Histogram,1,1,1,1,1,0,5,y-axis shows half students
+9,Multi-line,1,1,1,1,1,0,5,legend overlaps start of Karachi line
+10,Heatmap,1,1,1,1,1,0,5,Week axis title crowds tick labels
