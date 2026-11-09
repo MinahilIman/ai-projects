@@ -1,0 +1,459 @@
+=== Q1 ===
+The chemical formula of water is **H₂O**.
+
+This means each molecule of water consists of two hydrogen atoms bonded to one oxygen atom.
+
+=== Q2 ===
+Mercury is the closest planet to the Sun, orbiting at an average distance of about 36 million miles (58 million kilometers).
+
+Because of its proximity, Mercury completes one orbit around the Sun in just 88 Earth days.
+
+=== Q3 ===
+Plants absorb **carbon dioxide ($CO_2$)** from the air through tiny openings on their leaves called stomata to perform photosynthesis.
+
+Using energy from sunlight and water from the soil, plants convert carbon dioxide into glucose (sugar) for food and release **oxygen ($O_2$)** back into the air as a byproduct.
+
+=== Q4 ===
+There are **206 bones** in an adult human body.
+
+At birth, a baby has around **270 to 300 bones**. As a person grows, many of these bones (such as those in the skull, spine, and pelvis) fuse together into single, larger bones.
+
+(Gemini also showed an image)
+
+### Breakdown of the Skeleton
+
+The adult skeleton is divided into two primary divisions:
+
+| Skeletal Division | Bone Count | Major Components |
+| --- | --- | --- |
+| **Axial Skeleton** | **80 bones** | Skull, auditory ossicles (inner ear bones), hyoid bone, rib cage, and vertebral column |
+| **Appendicular Skeleton** | **126 bones** | Pectoral girdles (shoulders), arms, forearms, hands, pelvic girdle, legs, and feet |
+
+=== Q5 ===
+The speed of light in a vacuum is approximately **300,000 kilometers per second** ($3 \times 10^8 \text{ m/s}$).
+
+In everyday units, that is about **186,000 miles per second**. Exactly defined, it is $299,792,458 \text{ meters per second}$.
+
+=== Q6 ===
+```python
+result = 0.15 * 200
+print(result)
+
+
+```
+
+```text
+30.0
+
+
+```
+
+15% of 200 is **30**.
+
+### Step-by-Step Calculation
+
+$$\text{Result} = 200 \times \frac{15}{100} = 200 \times 0.15 = 30$$
+
+=== Q7 ===
+```python
+r = 7
+pi = 22 / 7
+area = pi * (r ** 2)
+print(f"Area: {area}")
+
+
+```
+
+```text
+Area: 154.0
+
+
+```
+
+The area of the circle is **154 square units**.
+
+### Step-by-Step Calculation
+
+1. **Formula:**
+
+$$A = \pi r^2$$
+
+
+2. **Substitute $r = 7$ and $\pi = \frac{22}{7}$:**
+
+$$A = \frac{22}{7} \times 7^2$$
+
+
+3. **Simplify:**
+
+$$A = \frac{22}{7} \times 49$$
+
+
+$$A = 22 \times 7 = 154$$
+
+=== Q8 ===
+```python
+import sympy as sp
+x = sp.Symbol('x')
+eq = sp.Eq(3*x + 5, 20)
+sol = sp.solve(eq, x)
+print(sol)
+
+
+```
+
+```text
+[5]
+
+
+```
+
+To solve for $x$ in the equation $3x + 5 = 20$:
+
+1. **Subtract 5 from both sides:**
+
+$$3x = 20 - 5$$
+
+
+$$3x = 15$$
+
+
+2. **Divide both sides by 3:**
+
+$$x = \frac{15}{3}$$
+
+
+$$x = 5$$
+
+
+=== Q9 ===
+The square root of 144 is **12** (since $12 \times 12 = 144$).
+
+Note that in algebra, 144 also has a negative square root, **-12** (since $(-12) \times (-12) = 144$), though "the square root" usually refers to the principal (positive) square root, 12.
+
+=== Q10 ===
+To find the original price, we can reverse the 20% discount.
+
+1. **Understand the relationship:** A 20% discount means the shopkeeper sold the shirt for 80% of its original price (100% - 20% = 80%).
+2. **Set up the equation:** Let $P$ be the original price.
+
+$$0.80 \times P = 1,200$$
+
+
+3. **Solve for $P$:**
+
+$$P = \frac{1,200}{0.80} = 1,500$$
+
+
+
+The original price of the shirt was **Rs. 1,500**.
+
+
+=== Q11 ===
+Islamabad is the capital of Pakistan. It officially became the capital in 1967, replacing Karachi, which served as the interim capital following Pakistan's independence in 1947.
+
+* **Location:** Situated in the Islamabad Capital Territory (ICT) in the northern part of the country, along the foothills of the Margalla Hills.
+* **Planning:** Designed by the Greek architect Constantinos Apostolou Doxiadis in the 1960s, it is a master-planned city divided into systematic sectors and zones.
+* **Key Features:** Home to the Faisal Mosque (one of the largest mosques in the world), the Pakistan Monument, and major government institutions, including the Parliament House and the Supreme Court.
+
+=== Q12 ===
+The **Indus River** is the longest river in Pakistan, stretching approximately **3,180 kilometers (1,976 miles)** from its source to its mouth.
+(Gemini also showed an image)
+
+### Key Overview
+
+* **Origin:** Tibetan Plateau (near Lake Manasarovar), entering Pakistan through Gilgit-Baltistan in the north.
+* **Course:** Flows south through the entire length of Pakistan—passing through Khyber Pakhtunkhwa, Punjab, and Sindh.
+* **Outlet:** Emptying into the Arabian Sea near Karachi.
+* **Significance:** Serves as the national river of Pakistan and forms the primary lifeline for the country's agriculture, industry, and hydroelectric power generation.
+
+=== Q13 ===
+The Lahore Resolution was passed in **1940** (specifically on March 24, 1940, following its presentation on March 23 at the annual session of the All-India Muslim League).
+
+=== Q14 ===
+The highest mountain in Pakistan is **K2** (also known as Mount Godwin-Austen or *Chhogori*).
+
+* **Elevation:** 8,611 meters (28,251 feet)
+* **Location:** Karakoram range, situated on the border between Gilgit-Baltistan, Pakistan, and Xinjiang, China.
+* **Global Standing:** It is the **2nd highest mountain in the world**, after Mount Everest (8,848 m).
+
+It is famously nicknamed the *"Savage Mountain"* due to its extreme difficulty and high fatality rate for mountaineers.
+
+=== Q15 ===
+Muhammad Ali Jinnah (commonly referred to as Quaid-e-Azam) was the first Governor-General of Pakistan. He served from Pakistan's independence on August 14, 1947, until his death on September 11, 1948.
+
+=== Q16 ===
+Most healthy adults need **7 to 9 hours** of sleep per night to function at their best.
+
+While individual sleep needs vary slightly based on genetics, activity level, and overall health, getting less than 7 hours on a regular basis is associated with impaired cognitive function, weakened immunity, and long-term health risks like cardiovascular disease and metabolic dysfunction.
+
+### Average Sleep Needs by Age Group
+
+| Age Group | Recommended Daily Sleep |
+| --- | --- |
+| **Young Adults (18–25 years)** | 7 to 9 hours |
+| **Adults (26–64 years)** | 7 to 9 hours |
+| **Older Adults (65+ years)** | 7 to 8 hours |
+Want to know how to calculate your ideal bedtime based on your sleep cycles?
+
+=== Q17 ===
+Vitamin D. When skin is directly exposed to sunlight, UVB rays interact with 7-dehydrocholesterol (a cholesterol precursor in the skin) to synthesize **Vitamin D3** (cholecalciferol).
+
+=== Q18 ===
+The normal human body temperature for a healthy adult typically ranges between **36.1°C and 37.2°C** (97°F to 99°F).
+
+While **37°C** (98.6°F) is commonly cited as the standard average, body temperature naturally fluctuates throughout the day and varies depending on where and how it is measured:
+
+| Measurement Method | Normal Range (°C) |
+| --- | --- |
+| **Oral** (mouth) | 36.3°C – 37.2°C |
+| **Tympanic** (ear) | 36.4°C – 37.5°C |
+| **Axillary** (armpit) | 35.9°C – 36.7°C |
+| **Rectal** (core) | 36.6°C – 38.0°C |
+
+**Key Factors That Influence Temperature:**
+
+* **Time of Day:** Temperature is typically lowest in the early morning (around 4:00 AM) and highest in the late afternoon or early evening (around 4:00 PM to 6:00 PM).
+* **Age:** Older adults tend to have lower baseline body temperatures than younger adults and children.
+* **Activity & Environment:** Exercise, hot weather, high humidity, and warm clothing can temporarily raise body temperature.
+
+Medical professionals generally consider a body temperature of **38°C (100.4°F) or higher** to be a fever.
+=== Q19 ===
+There are **366 days** in a leap year, compared to 365 days in a standard year.
+
+The extra day, known as a leap day, is added to the end of February (February 29). This occurs every four years to keep our calendar synchronized with the Earth's orbit around the Sun, which takes approximately 365.24 days.
+
+=== Q20 ===
+The main purpose of washing hands with soap is to **remove and destroy germs (bacteria, viruses, and parasites), dirt, and oils** from your skin to prevent the spread of infections and disease.
+
+Water alone can rinse away loose dirt, but it cannot effectively break down oils or trap microorganisms. Soap accomplishes this through a specific chemical mechanism:
+
+* **Breaks down viral and bacterial structures:** Soap molecules have a dual end—one side attracts water (hydrophilic) and the other attracts lipids/fats (hydrophobic). Many pathogens, including respiratory viruses, are encased in a fatty lipid membrane. Soap molecules wedge themselves into this membrane and tear it apart, destroying the virus or bacterium.
+* **Lifts pathogens from the skin:** The friction created by rubbing your hands together with soap lather traps dirt, grease, and micro-organisms inside soap structures called **micelles**, allowing water to wash them cleanly down the drain.
+
+### Key Moments to Wash Hands
+
+* Before eating or preparing food
+* After using the bathroom or changing diapers
+* After coughing, sneezing, or blowing your nose
+* After touching animals, animal feed, or animal waste
+* After handling garbage or touching frequently used public surfaces
+
+Proper handwashing requires scrubbing all surfaces of your hands—including the backs, between fingers, and under nails—for at least **20 seconds**.
+
+=== Q21 ===
+```python
+distance_1 = 180
+time_1 = 2.5
+speed = distance_1 / time_1
+
+distance_2 = 450
+time_2 = distance_2 / speed
+
+print(f"Speed: {speed} km/h")
+print(f"Time 2: {time_2} hours")
+
+
+```
+
+```text
+Speed: 72.0 km/h
+Time 2: 6.25 hours
+
+
+```
+
+It will take **6.25 hours** (or **6 hours and 15 minutes**) to travel 450 km.
+
+### Step-by-Step Breakdown
+
+1. **Find the speed of the train:**
+
+$$\text{Speed} = \frac{\text{Distance}}{\text{Time}} = \frac{180\text{ km}}{2.5\text{ hours}} = 72\text{ km/h}$$
+
+
+2. **Calculate the time to travel 450 km:**
+
+$$\text{Time} = \frac{\text{Distance}}{\text{Speed}} = \frac{450\text{ km}}{72\text{ km/h}} = 6.25\text{ hours}$$
+
+
+
+To convert the decimal portion to minutes:
+
+
+$$0.25\text{ hours} \times 60\text{ minutes/hour} = 15\text{ minutes}$$
+
+=== Q22 ===
+```python
+final_price = 48000
+multiplier = (1 + 0.20) * (1 - 0.20)
+original_price = final_price / multiplier
+print(f"Multiplier: {multiplier}")
+print(f"Original Price: {original_price}")
+
+
+```
+
+```text
+Multiplier: 0.96
+Original Price: 50000.0
+
+
+```
+
+Let the original price of the phone be $P$.
+
+1. **After a 20% increase:**
+
+$$\text{Price} = P \times (1 + 0.20) = 1.20P$$
+
+
+2. **After a 20% decrease:**
+
+$$\text{Final Price} = 1.20P \times (1 - 0.20) = 1.20P \times 0.80 = 0.96P$$
+
+
+3. **Calculate the original price ($P$):**
+
+$$0.96P = 48,000$$
+
+
+$$P = \frac{48,000}{0.96} = 50,000$$
+
+
+
+The original price of the phone was **Rs. 50,000**.
+
+=== Q23 ===
+```python
+total_students = 40
+ratio_boys = 3
+ratio_girls = 5
+total_parts = ratio_boys + ratio_girls
+girls_count = (ratio_girls / total_parts) * total_students
+print(f"Girls: {girls_count}")
+
+
+```
+
+```text
+Girls: 25.0
+
+
+```
+
+There are **25 girls** in the class.
+
+Here is the step-by-step calculation:
+
+1. **Find the total parts in the ratio:**
+$$\text{Total parts} = 3 \text{ (boys)} + 5 \text{ (girls)} = 8\text{ parts}$$
+
+
+2. **Find how many students one part represents:**
+$$\text{Students per part} = \frac{40 \text{ students}}{8 \text{ parts}} = 5 \text{ students/part}$$
+
+
+3. **Calculate the total number of girls:**
+$$\text{Number of girls} = 5 \text{ parts} \times 5 \text{ students/part} = 25 \text{ girls}$$
+
+
+
+*(For comparison, there are $3 \times 5 = 15$ boys.)*
+
+=== Q24 ===
+The national anthem of Pakistan (*Qaumi Taranah*) was written by **Hafeez Jullundhri** in 1952. Its musical score was composed by **Ahmed Ghulam Ali Chagla** (also known as A.G. Chagla) in 1949, prior to the adoption of the lyrics.
+
+
+=== Q25 ===
+The **Simla Agreement** (also spelled Shimla Agreement) was signed on **July 2, 1972**.
+
+It was signed for Pakistan by President **Zulfikar Ali Bhutto** (alongside Prime Minister **Indira Gandhi** representing India).
+
+---
+
+You can learn more by watching [July 2, 1972: India and Pakistan Signed the Shimla Agreement](https://www.youtube.com/shorts/SWGHCz3sJDg), which briefly highlights the historical context and signing of the peace accord following the 1971 war.
+
+=== Q26 ===
+The famous Punjabi epic love story *Heer* (commonly known as *Heer Ranjha*) was written by the 18th-century Punjabi Sufi poet **Waris Shah** in 1766.
+
+While earlier versions of the folk tale existed—most notably by Damodar Das Arora—Waris Shah's poetic retelling in the Punjabi *Bait* meter is widely considered the masterpiece of Punjabi literature.
+
+=== Q27 ===
+The **Badshahi Mosque** is located in **Lahore, Pakistan**, and was built by the sixth Mughal emperor, **Aurangzeb** (reigned 1658–1707).
+
+(gemini also showed image)
+
+* **Construction Period:** Commissioned in 1671 and completed in 1673.
+* **Architectural Style:** Signature Indo-Islamic Mughal architecture, constructed primarily from carved red sandstone inlaid with white marble.
+* **Historical Significance:** It was the largest mosque in the world for over 300 years and remains one of the most iconic landmarks of the Mughal era.
+
+=== Q28 ===
+The sky looks blue because of a phenomenon called **Rayleigh scattering**, which describes how sunlight interacts with the gases in Earth's atmosphere.
+
+---
+
+### Key Mechanisms
+
+1. **Sunlight contains all colors:** Sunlight appears white to us, but it is actually made up of all the colors of the visible spectrum combined.
+2. **Wavelengths differ:** Light travels in waves. Red and orange light have long, stretched-out wavelengths, while blue and violet light travel in short, smaller wavelengths.
+3. **Atmospheric gas scattering:** Earth's atmosphere is full of tiny molecules of nitrogen and oxygen. When white sunlight hits these gas molecules, the short blue wavelengths bump into them and scatter in every direction much more effectively than the longer red wavelengths.
+4. **Human eye perception:** Although violet light has an even shorter wavelength and scatters more than blue, human eyes are far more sensitive to blue light. Additionally, the sun emits significantly more blue light than violet.
+
+(gemini also showed image)
+
+### Why the Sky Turns Red and Orange at Sunset
+
+When the sun sets, light must travel through a much thicker layer of atmosphere to reach your eyes. By the time the sunlight reaches you, almost all the blue light has already been scattered away, allowing the longer red, orange, and yellow wavelengths to pass directly through without being scattered out of sight.
+
+=== Q29 ===
+```python
+# Problem: 5 machines take 5 minutes to make 5 widgets.
+# Rate per machine:
+# 5 machines make 5 widgets in 5 minutes -> 1 machine makes 1 widget in 5 minutes.
+# So 1 machine rate = 1 widget per 5 minutes = 1/5 widgets per minute.
+
+# For 100 machines making 100 widgets:
+# 100 machines make widgets at a combined rate of 100 * (1/5) = 20 widgets per minute.
+# Time required for 100 widgets = 100 widgets / 20 widgets per minute = 5 minutes.
+
+machines_initial = 5
+time_initial = 5
+widgets_initial = 5
+
+rate_per_machine = (widgets_initial / machines_initial) / time_initial # widgets per machine per minute
+
+machines_target = 100
+widgets_target = 100
+
+combined_rate = machines_target * rate_per_machine
+time_target = widgets_target / combined_rate
+
+print(f"Time target: {time_target} minutes")
+
+
+```
+
+```text
+Time target: 5.0 minutes
+
+
+```
+
+It will take **5 minutes**.
+
+Here is why:
+
+1. **Individual Machine Rate:** If 5 machines produce 5 widgets in 5 minutes, that means each machine produces **1 widget every 5 minutes**.
+2. **Scaling Up:** If you put 100 machines to work at the exact same time, each machine will still take 5 minutes to complete its own widget.
+3. **Total Production:** After 5 minutes, all 100 machines will finish their 1 widget simultaneously, giving you a total of 100 widgets.
+
+=== Q30 ===
+The **pancreas** produces insulin. Specifically, specialized clusters of cells within the pancreas called **beta cells** (located in the islets of Langerhans) synthesize and secrete the hormone into the bloodstream to regulate blood sugar levels.
+(gemini also showed image)
+A lack of insulin results in **Diabetes Mellitus**:
+
+* **Type 1 Diabetes:** An autoimmune condition where the immune system destroys the pancreas's beta cells, resulting in little to no insulin production.
+* **Type 2 Diabetes:** Occurs when the body becomes resistant to insulin, and over time, the pancreas fails to produce enough to meet the body's needs.
+
+Without sufficient insulin, glucose cannot enter cells to be used for energy, leading to high blood sugar levels (**hyperglycemia**).
